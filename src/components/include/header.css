@@ -1,0 +1,39 @@
+header {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin: 0;
+    padding: 25px 0px;
+
+}
+
+
+.default-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.16px;
+}
+
+.primary-btn {
+    background: #FCF2E8;
+    color: #EF9E48;
+}
