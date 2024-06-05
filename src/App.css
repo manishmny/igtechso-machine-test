@@ -233,6 +233,14 @@ h5 {
   color: #0F2137;
 }
 
+.plan-d ul.nav-tabs {
+  margin: auto;
+  margin-bottom: auto;
+  width: fit-content;
+  padding: 5px;
+  background: #F7F8FB;
+}
+
 .plan-d .nav-link.active {
   background: #FFFFFF;
   box-shadow: 0px 3px 3.8px rgba(38, 78, 118, 0.1);
@@ -249,6 +257,99 @@ h5 {
   letter-spacing: -0.24px;
   color: #0F2137;
 
+}
+
+.plan-d .plan-card {
+  box-sizing: border-box;
+  background: #FFFFFF;
+  border: 1px solid #F3F4F5;
+  border-radius: 10px;
+  padding: 20px 40px;
+  transition: all 300ms;
+  height: 100%;
+
+}
+
+.plan-d .plan-card:hover {
+  box-sizing: border-box;
+  background: #FFFFFF;
+  border: 1px solid #3FDBB1;
+  border-radius: 10px;
+  transform: scale(1.05);
+}
+
+.plan-card h5 {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-size: 22px;
+  line-height: 29px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: -0.55px;
+  color: #0F2137;
+}
+
+.plan-card p {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+  display: flex;
+  align-items: center;
+  color: #343D48;
+}
+
+.plan-card span.default-btn {
+  background: #EF9E48;
+  border-radius: 3px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: -0.14px;
+  color: #FFFFFF;
+  padding: 5px 10px;
+}
+
+.plan-card .price {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-size: 26px;
+  line-height: 34px;
+  display: flex;
+  align-items: flex-end;
+  text-align: right;
+  letter-spacing: -0.55px;
+  color: #25CB9E;
+
+
+}
+
+.plan-card button {
+  text-align: center;
+  padding: 10px 50px;
+}
+
+.plan-card li {
+  display: flex;
+  gap: 10px;
+
+}
+
+.plan-card li svg {
+  width: 30px;
+  margin-top: 5px;
+}
+
+.plan-card li p {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+  display: flex;
+  align-items: flex-end;
+  color: #343D48;
 }
 
 .cta-d {
@@ -315,7 +416,7 @@ h5 {
 }
 
 .core-feature-d .custom-card:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 
 }
 
@@ -344,16 +445,28 @@ h5 {
 
 .core-feature-bg {
   position: absolute;
-  background: linear-gradient(106.43deg, rgba(255, 253, 230, 0.35) -1.4%, rgba(255, 253, 230, 0.07) -1.39%, rgba(224, 239, 250, 0.35) 100.87%);
-  transform: rotate(-90deg);
-  left: -175px;
-  top: 0;
-  width: 50%;
+  left: -10vw;
+  top: 10vw;
+  width: 66.51vw;
   height: 100%;
   z-index: -1;
-  border-radius: 30%;
 }
 
+.scroll-d {
+  background: #FFFFFF;
+  box-shadow: 0px 14px 20px rgba(76, 119, 171, 0.1);
+  width: 72px;
+  height: 72px;
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-size: 30px;
+  line-height: 38px;
+  color: #0F2137;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
 
 .core-feature-d .custom-card .small-text {
   font-family: 'DM Sans';
@@ -364,4 +477,72 @@ h5 {
   letter-spacing: -0.5px;
   color: #0F2137;
   opacity: 0.7;
+}
+
+.swiper.mySwiper {
+  padding: 30px;
+}
+
+.tutorial-card {
+  box-sizing: border-box;
+  background: #FFFFFF;
+  border: 1px solid #F3F4F5 !important;
+  border-radius: 10px;
+
+}
+
+.tutorial-card:hover {
+  background: #FFFFFF;
+  box-shadow: 0px 15px 50px rgba(69, 88, 157, 0.1);
+}
+
+.tutorial-d button.secondary-btn {
+  background: #3FDBB1;
+  border-radius: 5px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.14px;
+  color: #FFFFFF;
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  z-index: 9;
+}
+
+.course .course-card {
+  box-sizing: border-box;
+  background: #FFFFFF;
+  border: 1px solid #F3F4F5;
+  border-radius: 10px;
+  padding: 24px;
+
+}
+
+.course .course-card:hover {
+  background: #FFFFFF;
+  box-shadow: 0px 25px 100px rgba(69, 88, 157, 0.08);
+  border-radius: 10px;
+
+}
+
+.course .course-card .expend-d {
+  display: none;
+  transition: all 300ms;
+  margin-left: 112px;
+  flex-wrap: wrap;
+}
+
+.course .course-card:hover .expend-d {
+  display: flex;
+}
+
+.expend-d span {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-size: 15px;
+  line-height: 42px;
+  color: #0F2137;
+  width: 50%;
 }

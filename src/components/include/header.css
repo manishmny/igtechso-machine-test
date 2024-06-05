@@ -38,3 +38,14 @@ nav>ul {
     color: #EF9E48;
 }
 
+
+.secondary-btn {
+    background: #3FDBB1;
+    border-radius: 6px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-size: 15px;
+    line-height: 30px;
+    color: #FFFFFF;
+
+}
