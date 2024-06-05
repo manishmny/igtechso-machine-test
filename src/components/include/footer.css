@@ -1,5 +1,4 @@
-
-.dividor {
+.divider {
     width: 100%;
     height: 3px;
     margin-top: 50px;
@@ -17,4 +16,12 @@ footer span.sub-title {
     line-height: 30px;
     letter-spacing: -0.5px;
     color: #0F2137;
+}
+
+footer a {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-size: 14px;
+    color: #02073E;
+    opacity: 0.8;
 }

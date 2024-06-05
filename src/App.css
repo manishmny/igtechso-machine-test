@@ -30,7 +30,7 @@ body {
 /* BG */
 .bg {
   position: absolute;
-  width: 1234px;
+  width: 64vw;
   height: 1000px;
   left: 0px;
   top: 0px;
@@ -50,6 +50,95 @@ body {
   line-height: 65px;
   letter-spacing: -2px;
   color: #02073E;
+}
+
+h1.main-heading {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-size: 85px;
+  line-height: 100px;
+  letter-spacing: -2px;
+  color: #02073E;
+}
+
+.content {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-size: 18px;
+  line-height: 42px;
+  color: #02073E;
+
+}
+
+.search-d input {
+  height: 70px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 50px rgba(48, 98, 145, 0.08);
+  border-radius: 8px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 40px;
+  color: #02073E;
+  border: none;
+  padding: 10px 20px;
+  /* opacity: 0.4; */
+
+}
+
+.search-d input::placeholder {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 40px;
+  color: #02073E;
+  opacity: 0.4;
+
+}
+
+.search-d .icon {
+  position: absolute;
+  right: 20px;
+  top: 33%;
+  width: 22px;
+  height: 22px;
+}
+
+.logo-title {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 42px;
+  color: #02073E;
+  opacity: 0.6;
+
+}
+
+.logos-d {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 30px;
+}
+
+.media-bg {
+  box-sizing: border-box;
+  width: 545px;
+  height: 680px;
+  margin-left: auto;
+  border: 2px solid #FFDC6B;
+  border-radius: 5px;
+
+}
+
+.media-bg video {
+  margin: -40px -40px 0px -40px;
+  object-fit: cover;
+}
+
+.default-85 {
+  max-width: 85%;
+  margin: auto;
 }
 
 .default-d {
@@ -115,6 +204,53 @@ p,
   color: #343D48;
 }
 
+.small-text {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-size: 15px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  color: #0F2137;
+  opacity: 0.8;
+}
+
+h6 {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #343D48;
+  opacity: 0.8;
+
+}
+
+h5 {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #0F2137;
+}
+
+.plan-d .nav-link.active {
+  background: #FFFFFF;
+  box-shadow: 0px 3px 3.8px rgba(38, 78, 118, 0.1);
+}
+
+.plan-d .nav-link {
+  border: none;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.24px;
+  color: #0F2137;
+
+}
+
 .cta-d {
   display: flex;
   justify-content: center;
@@ -125,4 +261,107 @@ p,
 
 .cta-d h1 {
   max-width: 50%;
+}
+
+.common-bg {
+  position: absolute;
+  background: linear-gradient(180deg, #EBF9FF 0%, #F6F6FF 100%);
+  opacity: 0.4;
+  z-index: -1;
+}
+
+
+.wiw-d .count {
+  background: #FFFFFF;
+  box-shadow: 0px 14px 20px rgba(76, 119, 171, 0.1);
+  width: 72px;
+  height: 72px;
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-size: 30px;
+  line-height: 38px;
+  color: #0F2137;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+
+}
+
+
+.arrow-d {
+  position: absolute;
+  right: 0;
+  top: 2%;
+}
+
+.custom-card-d {
+  flex-wrap: wrap;
+}
+
+.core-feature-d .custom-card {
+  width: 42%;
+  height: 280px;
+  background: #FFFFFF;
+  box-shadow: 0px 25px 100px rgba(69, 88, 157, 0.08);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  transition: all 300ms;
+
+}
+
+.core-feature-d .custom-card:hover {
+  transform: scale(1.2);
+
+}
+
+.core-feature-d .custom-card .count {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-size: 72px;
+  line-height: 55px;
+  text-align: center;
+  letter-spacing: -1.5px;
+  color: #EF9E48;
+
+}
+
+.core-feature-d .custom-card:nth-child(2) .count {
+  color: #FF753A;
+}
+
+.core-feature-d .custom-card:nth-child(3) .count {
+  color: #FA578E;
+}
+
+.core-feature-d .custom-card:nth-child(4) .count {
+  color: #E682FF;
+}
+
+.core-feature-bg {
+  position: absolute;
+  background: linear-gradient(106.43deg, rgba(255, 253, 230, 0.35) -1.4%, rgba(255, 253, 230, 0.07) -1.39%, rgba(224, 239, 250, 0.35) 100.87%);
+  transform: rotate(-90deg);
+  left: -175px;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  z-index: -1;
+  border-radius: 30%;
+}
+
+
+.core-feature-d .custom-card .small-text {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: #0F2137;
+  opacity: 0.7;
 }
